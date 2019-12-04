@@ -13,4 +13,8 @@ describe('Operaciones matemáticas', () => {
     test('Realizamos la division', () => {
         expect(testing.dividir(1,1)).toBe(1);
     });
+
+    test('Realizamos la comparación del string', () => {
+        expect(testing.regex('xyz')).toBe('ab');
+    });
 });

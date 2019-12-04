@@ -5,9 +5,17 @@
      return Math.abs(a-b);
     }; 
 
+let regex = (estring) => {
+    let result = estring.match(/ab/g);
+    return result;
+};
+
+console.log(regex('xyz'));
+
  module.exports = {
     sumar : sumar,
     restar: restar,
     dividir : dividir,
-    multiplicar : multiplicar
+    multiplicar : multiplicar,
+    regex: regex
  };
