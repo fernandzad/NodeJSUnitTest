@@ -1,0 +1,22 @@
+{
+  "name": "nodejsunittest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesusfer2575/NodeJSUnitTest.git"
+  },
+  "author": "Ad Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesusfer2575/NodeJSUnitTest/issues"
+  },
+  "homepage": "https://github.com/Jesusfer2575/NodeJSUnitTest#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
